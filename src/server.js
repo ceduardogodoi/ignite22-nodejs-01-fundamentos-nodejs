@@ -1,5 +1,5 @@
 import http from 'node:http'
-import { Database } from '../streams/database.js'
+import { Database } from './database.js'
 import { json } from './middlewares/json.js'
 
 const database = new Database()
